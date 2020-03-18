@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Inside Scoops on Baskin Robbins</title>
+    <link rel="icon" href="images/Baskin-Robbins_logo.svg.ico" sizes="32x32">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat%7CPaytone+One&display=swap" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+	<script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+    <script src="//code.highcharts.com/maps/modules/map.js"></script> 
+    <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+
+	<!-- <script src="https://code.highcharts.com/mapdata/custom/world-continents.js"></script> -->
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+    <section id="intro">
+        <div>
+            <h1>The Inside Scoop on</h1>
+        </div>
+        <img id="brlogo" src="images/Baskin-Robbins_logo.svg.png" alt="Baskin-Robbins_logo">
+        <h3>by Catherine Hou</h3>
+        <div id="stats">
+            <div width="100%">
+                <h2><em>6700+</em> <br> stores</h2>
+            </div>
+            <div>
+                <h2><em>75</em> <br> years</h2>
+            </div>
+            <div>
+                <h2><em>1000+</em> <br> flavors</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="flavors">
+        <div id="flavorsText">
+            <h2>The Legendairy Classics</h2>
+            <p>Four out of five of these flavors were a part of Baskin-Robbins' original 31 flavors and remain popular even today!</p>
+        </div>
+        <figure id="flavorinfogram" class="container" width="100%">
+            <!-- <iframe src="https://e.infogram.com/627c7c92-7209-418a-aaea-9169139f4250?src=embed" title="BR_Flavors" width="450" height="500" scrolling="no" frameborder="0" style="border:none;" allowfullscreen="allowfullscreen"></iframe><div style="padding:0px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:0px solid #dadada;margin:0 30px;width: 640px"><a href="https://infogram.com/627c7c92-7209-418a-aaea-9169139f4250" style="color:#989898!important;text-decoration:none!important;" target="_blank"></a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow"></a></div> -->
+
+            <iframe src="https://e.infogram.com/627c7c92-7209-418a-aaea-9169139f4250?src=embed" title="BR_Flavors" width="450" height="500" scrolling="no" frameborder="0" style="border:none;" allowfullscreen="allowfullscreen"></iframe><div style="padding:0px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:0px solid #dadada;margin:0 30px;width: 640px"><a href="https://infogram.com/627c7c92-7209-418a-aaea-9169139f4250" style="color:#989898!important;text-decoration:none!important;" target="_blank"></a><br><target="_blank" rel="nofollow"></a></div>
+        </figure>
+    </section>
+
+    <section id="maps">
+        <div width="100%">
+            <h2>States that Scream for Ice Cream</h2>
+            <p>New York and Illinois prove that even colder states don't shy away from Baskin-Robbins. Not surprisingly, warmer states like California, Texas, and Florida have the most Baskin-Robbins stores.</p>
+        </div>
+        <figure>
+            <div width="100%" id="mapstore"></div>
+        </figure>
+    </section>
+
+    <section id = "storeLine">
+        <figure>
+            <div width="100%" id="store"></div>
+        </figure>
+        <div>
+            <h1>Bitter Sweet Success</h1>
+            <p>Baskin-Robbins is opening stores internationally at a strong pace, while its growth domestically has plateaued.</p>
+        </div>
+    </section>
+
+    <section id="storegrowth">
+        <div>
+            <h1>Changing Tastes</h1>
+            <p>A great majority of Baskin-Robbins stores are international.</p>
+        </div>
+        <figure>
+            <div width="100%" id="pieOldStore"></div>
+        </figure>
+        <figure>
+            <div width="100%" id="pieStore"></div>
+        </figure>
+    </section>
+
+    <section id = "salesLine">
+        <figure>
+            <div width="100%" id="sales"></div>
+        </figure>
+        <div>
+            <h1>A Growing Divide</h1>
+            <p>International sales skyrocketed in the late 2000's, while domestic sales have observed a slow decline. Since then sales have remained consistent.</p>
+        </div>
+    </section>
+
+    <section id="salesgrowth">
+        <div>
+            <h1>Changing Tastes Part 2</h1>
+            <p>Compared to ten years before, an overwhelming amount of sales come from international stores.</p>
+        </div>
+        <figure>
+            <div width="100%" id="pieOldSale"></div>
+        </figure>
+        <figure>
+            <div width="100%" id ="pieSale"></div>
+        </figure>
+    </section>
+
+    <section id="consumptionhistory">
+        <div width="100%">
+            <h2>American Ice Cream Consumption Melting Away</h2>
+            <p>The big difference in growth between domestic and international sales could be due to Americans consuming less ice cream. Despite that, Baskin-Robbins has remained consistent.</p>
+        </div>
+        <figure>
+            <div width="100%" id="consumption"></div>
+        </figure>
+    </section>
+</body>
+
+</html>
