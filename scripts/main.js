@@ -180,7 +180,7 @@ function plotLineSales() {
                     zoomType: 'x'
         },
         title: {
-            text: 'Yearly Sales Growth'
+            text: 'Yearly Sales'
         },
     
         subtitle: {
@@ -263,7 +263,7 @@ function plotLineStore() {
                     zoomType: 'x'
         },
         title: {
-            text: 'Yearly Growth of Number of Stores'
+            text: 'Yearly Number of Stores'
         },
     
         subtitle: {
